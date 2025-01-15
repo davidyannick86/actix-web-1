@@ -6,11 +6,6 @@ authors = ["David Tavan"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-# Add library dependencies here
-[lib]
-
-# Add dev dependencies here
-[dev-dependencies]
 
 # Add dependencies here
 [dependencies]
