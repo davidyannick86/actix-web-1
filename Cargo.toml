@@ -1,0 +1,17 @@
+[package]
+name = "actix-web-1"
+version = "0.1.0"
+edition = "2021"
+authors = ["David Tavan"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Add library dependencies here
+[lib]
+
+# Add dev dependencies here
+[dev-dependencies]
+
+# Add dependencies here
+[dependencies]
+actix-web = "4.9.0"
