@@ -21,7 +21,7 @@ async fn main() -> std::io::Result<()> {
                     .route("/profile", actix_web::web::post().to(insert)),
             )
     })
-    .bind(("0.0.0.0", 8000))?
+    .bind(("0.0.0.0", 8080))?
     .run()
     .await
 }

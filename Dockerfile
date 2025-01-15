@@ -7,5 +7,5 @@ WORKDIR /app
 
 RUN cargo build --release
 
-CMD ["./actix-web-1"]
+CMD ["./target/release/actix-web-1"]
 
