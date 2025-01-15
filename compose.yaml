@@ -1,10 +1,9 @@
 services:
   web:
+    container_name: actix-web-1
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-    volumes:
-      - .:/usr/src/app
-    command: ["cargo", "run"]
+    command: ["./actix-web-1"]

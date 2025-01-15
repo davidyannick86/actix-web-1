@@ -31,5 +31,5 @@ async fn index() -> &'static str {
 }
 
 async fn insert() -> &'static str {
-    "Data inserted successfully!"
+    "Data inserted successfully! No more"
 }

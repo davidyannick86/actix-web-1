@@ -1,11 +1,11 @@
 ###
-GET http://localhost:8000/v1/profile
+GET http://localhost:8080/v1/profile
 
 ###
-POST http://localhost:8000/v1/profile
+POST http://localhost:8080/v1/profile
 
 ###
-GET http://localhost:8000/v2/profile
+GET http://localhost:8080/v2/profile
 
 ###
-POST http://localhost:8000/v2/profile
+POST http://localhost:8080/v2/profile
